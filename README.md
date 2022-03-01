@@ -1,0 +1,2 @@
+# Hackathon_IITH-SNPS-VSD_8-to-1_Serializer
+A Serializer/Deserializer (SerDes pronounced sir-deez or  sir-dez)  is  a  pair  of  functional  blocks  commonly  used  in  high speed communications to compensate for limited  input/output. These blocks convert data between serial data  and  parallel  interfaces  in  each  direction.  A  Serializer, one  of  the  major  components  of  SerDes,  is  a  parallel  in  serial  out architecture. For this the generated clock is taken as is,  and the focus is not on clock generation, but the serialization aspect.
