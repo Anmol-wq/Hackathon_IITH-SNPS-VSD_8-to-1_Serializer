@@ -35,7 +35,7 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 
   
 <p align="center">
-  <img src=file:///home/anmol/Downloads/serializer.png![image](https://user-images.githubusercontent.com/73732594/156291568-577162f6-6ef1-4da4-b112-72ccdf73756f.png)> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156291568-577162f6-6ef1-4da4-b112-72ccdf73756f.png"> <br>
 </p>
 <p align="center">
   <b> Basic GDI Cell </b> <br>
