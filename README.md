@@ -38,9 +38,9 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 <p align="center">
   <b> Serializer Operation </b> <br>
 </p>
-# Reference Circuit
 
-  
+# Reference Circuit
+ 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156291568-577162f6-6ef1-4da4-b112-72ccdf73756f.png"> <br>
 </p>
