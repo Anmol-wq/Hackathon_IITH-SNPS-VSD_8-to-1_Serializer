@@ -8,7 +8,7 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 - [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#gdi-technique)
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
 - [A 2-to-1 Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#mux)
-- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#
+- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f)
 - [A Positive Latch](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-exor-gate)
 - [A Negative Latch](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-exnor-gate)
 - [An Inverter](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-nand-gate)
