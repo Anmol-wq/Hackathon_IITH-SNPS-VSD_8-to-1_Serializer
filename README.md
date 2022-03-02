@@ -54,15 +54,6 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
   <b> As Submitted in Literature Survey </b> <br>
 </p>
 
-# Reference Circuit
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155850973-adea210c-366a-49fc-a0c3-8b65bc75c646.png"> <br>
-</p>
-<p align="center">
-  <b> </b> <br>
-</p>
-
 # A 2-to-1 Mux
 
 <p align="center">
@@ -139,20 +130,20 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 
 # An 8-to-1 Serializer
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156298758-a266297f-76c3-437a-b7a9-b83b084d8009.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156299239-4c238dd3-1605-47fd-bbb6-0f3fe8427793.png"> <br>
 </p>
-
-
-# 
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155853422-961f5cd0-de33-45aa-9862-e9a826da669d.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156299239-4c238dd3-1605-47fd-bbb6-0f3fe8427793.png"> <br>
 </p>
-
-# 
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155854044-d2aff17b-cff7-4dd7-8093-2583e46ca640.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156299345-3c217c79-c94e-4ed0-bba8-015cb680d163.png"> <br>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156299481-8639a2a3-7ddd-4a0f-b262-4a20b2deea03.png"> <br>
+</p>
+<p align="center">
+  <img src="file:///home/anmol/Pictures/Screenshot%20from%202022-03-01%2023-25-35.png![image](https://user-images.githubusercontent.com/73732594/156299644-32f4143a-13ac-4d32-909d-6a0b881893b8.png)
+"> <br>
 </p>
 
 # Simulations
@@ -160,24 +151,22 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 # Transient Analysis
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155855198-dfea5acb-f505-4889-831c-497f9ab527b7.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156299815-46508a6d-ea9a-4a2f-a317-a9c510e3abb5.png"> <br>
+</p>
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156299930-5c2a4d11-6a1e-472b-924e-9acccabc7979.png"> <br>
 </p>
 <p align="center">
-  <b> Testbench Schematic for Transient Analysis </b> <br>
+  <b> Transient Analysis </b> <br>
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155855388-14e686b1-172c-4f27-8e12-d356eef5b247.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156300095-e8ff8a6c-0d88-4458-989c-1b0ae09bd31a.png"> <br>
 </p>
 <p align="center">
-  <b> Transient Analysis Inputs </b> <br>
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155855369-c4e4eeab-d86e-415d-b1f6-3912029e9a5b.png"> <br>
-</p>
-<p align="center">
-  <b> Transient Analysis Outputs </b> <br>
+  <b> Reference successfully reproduced </b> <br>
 </p>
 
 
