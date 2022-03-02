@@ -2,6 +2,7 @@
 
 This repository presents the design and simulation of A  Serializer, one 
 of  the  major  components  of  SerDes which is essentially  a  parallel  in  serial out architecture. 
+
 # Table of Contents
 - [Abstract](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#abstract)
 - [Tools Used](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#tools-used)
@@ -354,6 +355,8 @@ v27 0_1 gnd! dc=0 pulse ( 0 1.8 0 0.2n 0.2n 1n 2n )
 
 
 ```
+As we can see the (W/L)pMOS=(0.15u/0.04u), and (W/L)nMOS=(0.15u/0.04u) is used consistently throughout the design.
+
 # Challenges
 
 - Initially, instead of symbols, the whole circuit consisted of actual schematics instead of their generated symbols. This led to visibility issue as circuit is big. Appropriate symbols were created to facilitate better maneuverablity. 
