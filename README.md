@@ -133,7 +133,7 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
   <img src="https://user-images.githubusercontent.com/73732594/156299239-4c238dd3-1605-47fd-bbb6-0f3fe8427793.png"> <br>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156299239-4c238dd3-1605-47fd-bbb6-0f3fe8427793.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156300836-4426c15c-76a7-4db6-a012-3eb0d0d11b8f.png"> <br>
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156299345-3c217c79-c94e-4ed0-bba8-015cb680d163.png"> <br>
@@ -148,7 +148,7 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 
 # Simulations
 
-# Transient Analysis
+## Transient Analysis
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156299815-46508a6d-ea9a-4a2f-a317-a9c510e3abb5.png"> <br>
@@ -172,11 +172,179 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 
 # Netlist
 
-Netlist of the Circuit can be found [here]()
+```
+*  Generated for: PrimeSim
+*  Design library name: Proposed_ckt
+*  Design cell name: as_8to1
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Tue Mar  1 18:15:02 2022
+
+.global gnd!
+********************************************************************************
+* Library          : Proposed_ckt
+* Cell             : as_2to1_serializer
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt as_2to1_serializer clk out din1 din2
+xm54 net24 clk net25 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm53 net25 clkb net10 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm52 net9 net25 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm51 net10 net9 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm46 net12 clk net14 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm41 net14 clkb net8 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm42 net7 net14 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm45 net8 net7 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm38 net6 net5 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm37 net5 net12 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm36 net12 clk net6 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm35 din1 clkb net12 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm30 net4 net3 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm29 net3 net24 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm28 net24 clk net4 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm8 din2 clkb net24 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm27 net2 net1 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm24 net1 net17 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm22 net17 clk net2 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm20 net14 clkb net17 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm9 clkb clk vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm1 out clk net25 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm0 out clkb net17 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm50 net24 clkb net25 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm49 net25 clk net10 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm48 net9 net25 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm47 net10 net9 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm39 net12 clkb net14 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm40 net14 clk net8 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm43 net7 net14 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm44 net8 net7 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm34 net6 net5 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm33 net5 net12 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm32 net12 clkb net6 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm31 din1 clk net12 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm7 net4 net3 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm6 net3 net24 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm5 net24 clkb net4 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm2 din2 clk net24 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm26 net2 net1 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm25 net1 net17 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm23 net17 clkb net2 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm21 net14 clk net17 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm3 out clk net17 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm4 out clkb net25 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm10 clkb clk gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+v12 vdd gnd! dc=1.8
+.ends as_2to1_serializer
+
+********************************************************************************
+* Library          : Proposed_ckt
+* Cell             : as_dff_new
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt as_dff_new clk q din
+xm26 net98 q gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm25 q net90 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm23 net90 clkb net98 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm21 net103 clk net90 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm18 net64 net103 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm17 net103 net56 gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm14 net56 clk net64 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm12 din clkb net56 gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm5 clkb clk gnd! gnd! n105 w=0.1u l=0.04u nf=1 m=1
+xm27 net98 q vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm24 q net90 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm22 net90 clk net98 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm20 net103 clkb net90 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm19 net64 net103 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm16 net103 net56 vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm15 net56 clkb net64 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm11 din clk net56 vdd p105 w=0.15u l=0.04u nf=1 m=1
+xm4 clkb clk vdd vdd p105 w=0.15u l=0.04u nf=1 m=1
+v8 vdd gnd! dc=1.8
+.ends as_dff_new
+
+********************************************************************************
+* Library          : Proposed_ckt
+* Cell             : as_8to1_symbol
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt as_8to1_symbol clk clk1 clk2 clk3 out din1 din2 din3 din4 din5 din6 din7
++  din8
+xi6 clk1 g e f as_2to1_serializer
+xi5 clk2 f c d as_2to1_serializer
+xi4 clk2 e a b as_2to1_serializer
+xi3 clk3 d din8 din4 as_2to1_serializer
+xi2 clk3 c din6 din2 as_2to1_serializer
+xi1 clk3 b din7 din3 as_2to1_serializer
+xi0 clk3 a din5 din1 as_2to1_serializer
+xi7 clk out g as_dff_new
+.ends as_8to1_symbol
+
+********************************************************************************
+* Library          : Proposed_ckt
+* Cell             : as_8to1
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 0_1 1 2 3 out din1 din2 din3 din4 din5 din6 din7 din8 as_8to1_symbol
+v42 din3 gnd! dc=0 pulse ( 0 1.8 7n 0.2n 0.2n 16n 32n )
+v44 din5 gnd! dc=0 pulse ( 0 1.8 2n 0.2n 0.2n 16n 32n )
+v46 din7 gnd! dc=0 pulse ( 0 1.8 8n 0.2n 0.2n 16n 32n )
+v47 din8 gnd! dc=0 pulse ( 0 1.8 8n 0.2n 0.2n 32n 64n )
+v43 din4 gnd! dc=0 pulse ( 0 1.8 7n 0.2n 0.2n 32n 64n )
+v45 din6 gnd! dc=0 pulse ( 0 1.8 2n 0.2n 0.2n 32n 64n )
+v33 din1 gnd! dc=0 pulse ( 0 1.8 3n 0.2n 0.2n 16n 32n )
+v41 din2 gnd! dc=0 pulse ( 0 1.8 3n 0.2n 0.2n 32n 64n )
+v32 3 gnd! dc=0 pulse ( 0 1.8 0 0.2n 0.2n 8n 16n )
+v31 2 gnd! dc=0 pulse ( 0 1.8 0 0.2n 0.2n 4n 8n )
+v30 1 gnd! dc=0 pulse ( 0 1.8 0 0.2n 0.2n 2n 4n )
+v27 0_1 gnd! dc=0 pulse ( 0 1.8 0 0.2n 0.2n 1n 2n )
+
+
+
+
+
+
+
+
+.tran '0.1n' '100n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(0_1) v(1) v(2) v(3) v(out) v(din1) v(din2) v(din3) v(din4) v(din5)
++ v(din6) v(din7) v(din8)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
+
+
+```
 
 # Results
 
-
+The circuit has been simulated successfully at clock frequency of 1 GHz, with data input lines transmitting data at 125 MHz.
 
 # Author
 
