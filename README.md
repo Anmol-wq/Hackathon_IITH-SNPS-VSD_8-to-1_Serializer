@@ -30,11 +30,14 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 
 # Tools Used
 - Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis. This tool was used to design the circuit on a transistor level. Steps were followed from the provided doc at Hackathon platform to setup defs file at the following location.
+
+- Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+- Synopsys 32-28nm SAED_PDK:  SAED 32-28nm was used for model library files, and at Typical corner for both p and nMOS (TT).
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156302649-dbdff5e0-b03f-440e-9207-402197de8c0a.png"> <br>
 </p>
-- Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
-- Synopsys 32-28nm SAED_PDK:  SAED 32-28nm was used for model library files, and at Typical corner for both p and nMOS (TT).
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156302916-c55971e2-ac80-423e-879c-7c30fe8d621f.png"> <br>
 </p>
