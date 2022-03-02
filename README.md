@@ -25,7 +25,7 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 
 
 # Abstract
-
+Based on the 2-to-1 Serializer developed, one can use this architecture to implement a multiplexer with a larger number of input channels. Most of them are based on the topology of tree structure. As illustrated in the figure, the tree structure is a natural extension of the 2-to-1 unit, the idea is to group the input channels in pairs and multiplex each pair, reducing the number by a factor of two after each rank. In this architecture, the flip-flop is driven by a clock frequency fck, the serializer in rank 3 is driven by a clock frequency fck/2, in rank 2 are driven by a clock frequency fck/4, and those in the rank1 are driven by a clock frequency fck/8.
 
 
 # Tools Used
