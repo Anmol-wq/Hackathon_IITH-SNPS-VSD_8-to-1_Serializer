@@ -361,18 +361,18 @@ The circuit has been simulated successfully at clock frequency of 1 GHz, with da
 
 # References
 
-[1] [Assaad,  Maher,  “Design  and  modelling  of  clock  and 
+- [1] [Assaad,  Maher,  “Design  and  modelling  of  clock  and 
 data  recovery  integrated  circuit  in  130  nm  CMOS 
 technology  for  10  Gb/s  serial  data  communications. 
 PhD thesis, University of Glasgow, 2009.](https://theses.gla.ac.uk/707/)
-[2] [R. Navid et al., "A 40 Gb/s Serial Link Transceiver in 
+- [2] [R. Navid et al., "A 40 Gb/s Serial Link Transceiver in 
 28 nm CMOS Technology," in IEEE Journal of Solid-
 State Circuits, April 2015.](https://ieeexplore.ieee.org/document/6991609)
-[3] [A. A. Suhani S.H., N. Prasad S. and K. S. S. Reddy, "A 
+- [3] [A. A. Suhani S.H., N. Prasad S. and K. S. S. Reddy, "A 
 20  Gb/s  Latency  Optimized  SerDes  Transmitter  for 
 Data Centre Applications," IEEE CONECCT, 2020.](https://ieeexplore.ieee.org/document/9198598)
-[4] [Nivedita Jaiswal, Radheshyam Gamad. "Design of a New Serializer and Deserializer Architecture for On-Chip SerDes Transceivers". Circuits and Systems Vol.06 No.03, 2015](https://www.scirp.org/html/5-7600373_55133.htm)
-[5] Synopsys Custom Compiler Tutorial by Sameer Durgoji on the Hackathon Platform.
+- [4] [Nivedita Jaiswal, Radheshyam Gamad. "Design of a New Serializer and Deserializer Architecture for On-Chip SerDes Transceivers". Circuits and Systems Vol.06 No.03, 2015](https://www.scirp.org/html/5-7600373_55133.htm)
+- [5] Synopsys Custom Compiler Tutorial by Sameer Durgoji on the Hackathon Platform.
 
 .
 
