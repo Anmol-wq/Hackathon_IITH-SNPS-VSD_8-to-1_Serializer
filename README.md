@@ -183,6 +183,7 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
   <b> Reference successfully reproduced </b> <br>
 </p>
 
+Here, we can see from net1 to the net2 how the data is being serialized out, since the pattern repeats, it has been shown only till 10us.
 
 # Netlist
 
@@ -364,7 +365,7 @@ As we can see the (W/L)pMOS=(0.15u/0.04u), and (W/L)nMOS=(0.15u/0.04u) is used c
 
 # Results
 
-The circuit has been simulated successfully at clock frequency of 1 GHz, with data input lines transmitting data at 125 MHz.
+The circuit has been simulated successfully at clock frequency of 1 GHz, and the voltage signal is maintained at 1.8 V throughout, with data input lines transmitting data at 125 MHz.
 
 # Author
 
