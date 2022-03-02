@@ -41,6 +41,8 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156302916-c55971e2-ac80-423e-879c-7c30fe8d621f.png"> <br>
 </p>
+
+
 # Serializer
 
 <p align="center">
