@@ -9,20 +9,20 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 - [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#gdi-technique)
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
 - [A 2-to-1 Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#mux)
-- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f)
-- [A Positive Latch](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-exor-gate)
-- [A Negative Latch](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-exnor-gate)
-- [An Inverter](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-nand-gate)
-- [A Frequency Divide by 2 circuit](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-nor-gate)
-- [A 2-to-1 Serializer](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-and-gate)
-- [An 8-to-1 Serializer](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-mux_2x1)
-- [Simulations](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-half-adder)
-- [Netlist](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-full-adder)
-- [Challenges](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#gdi-4-bit-vedic-multiplier)
-- [Results](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#simulations)
-- [Author](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#netlist)
-- [Acknowledgements](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#results)
-- [References](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#author)
+- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ff)
+- [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#platch)
+- [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#nlatch)
+- [An Inverter](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#inverter)
+- [A Frequency Divide by 2 circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#fby2)
+- [A 2-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser2)
+- [An 8-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser8)
+- [Simulations](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#simulations)
+- [Netlist](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#netlist)
+- [Challenges](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#challenges)
+- [Results](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#results)
+- [Author](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#author)
+- [Acknowledgements](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#acknowledgements)
+- [References](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#refs)
 
 
 # Abstract
@@ -177,7 +177,7 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156300095-e8ff8a6c-0d88-4458-989c-1b0ae09bd31a.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156374501-e69d14e3-3c09-4852-a765-5e26d1fd97d3.png"> <br>
 </p>
 <p align="center">
   <b> Reference successfully reproduced </b> <br>
