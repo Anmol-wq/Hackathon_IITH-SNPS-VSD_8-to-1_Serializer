@@ -50,10 +50,10 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 # 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155850962-07d71dcf-ab2a-4508-8cb2-cc3ca481dd86.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156292996-b3db83c6-16c7-46cd-b0c6-b3ff87dc682b.png"> <br>
 </p>
 <p align="center">
-  <b> Multiplication of two 4-bit numbers using urdhvatiryakbhyam </b> <br>
+  <b> Serializer Operation </b> <br>
 </p>
 
 # Reference Circuit
