@@ -6,9 +6,9 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 # Table of Contents
 - [Abstract](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#abstract)
 - [Tools Used](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#tools-used)
-- [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#gdi-technique)
+- [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#serializer)
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
-- [A 2-to-1 Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#mux)
+- [A 2-to-1 Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#mux2-to-1)
 - [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ff)
 - [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#platch)
 - [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#nlatch)
