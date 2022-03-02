@@ -120,20 +120,28 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 # A Frequency Divide by 2 circuit
 
 <p align="center">
-  <img src=""> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156298051-4148376e-6856-41b2-ba0f-afca57ccf157.png"> <br>
 </p>
-
-# 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155853291-e3d426e3-39fe-4168-872d-1268b60b99aa.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156298569-974a956a-0c4f-4ffe-b09b-fa1f7fff2284.png"> <br>
 </p>
 
-# 
+# A 2-to-1 Serializer
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155853374-2009ff1f-f84c-4505-8d16-0e4e7e1dab38.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156298758-a266297f-76c3-437a-b7a9-b83b084d8009.png"> <br>
 </p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156298940-92a003e8-9311-4d0f-8668-97cfb9d0d844.png"> <br>
+</p>
+
+# An 8-to-1 Serializer
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156298758-a266297f-76c3-437a-b7a9-b83b084d8009.png"> <br>
+</p>
+
 
 # 
 
