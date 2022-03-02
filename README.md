@@ -360,7 +360,7 @@ As we can see the (W/L)pMOS=(0.15u/0.04u), and (W/L)nMOS=(0.15u/0.04u) is used c
 # Challenges
 
 - Initially, instead of symbols, the whole circuit consisted of actual schematics instead of their generated symbols. This led to visibility issue as circuit is big. Appropriate symbols were created to facilitate better maneuverablity. 
-- The frequency divider circuit is yielding latency issues, so as per literature survey, it was concluded that a PLL may be assumed to proviide the required clocks at the three ranks respectively.
+- The frequency divider circuit is yielding latency issues, so as per literature survey, it was concluded that a PLL may be assumed to provide the required clocks at the three ranks respectively.
 
 # Results
 
