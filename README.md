@@ -38,13 +38,13 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
   <img src="https://user-images.githubusercontent.com/73732594/156291568-577162f6-6ef1-4da4-b112-72ccdf73756f.png"> <br>
 </p>
 <p align="center">
-  <b> Basic GDI Cell </b> <br>
+  <b> Serializer 8-to-1 </b> <br>
 </p>
 <p align="center">
-  <img align="center" src="https://user-images.githubusercontent.com/54439300/155850955-8e8cabae-b10c-4bac-a258-d1dd97dd9223.png"> <br>
+  <img align="center" src="https://user-images.githubusercontent.com/73732594/156292110-28235f4f-f37b-4c8c-98e0-3022a8440446.png"> <br>
 </p>
 <p align="center">
-  <b> Implementation of Boolean circuit using GDI </b> <br>
+  <b> As Submitted in Literature Survey </b> <br>
 </p>
 
 # 
