@@ -30,7 +30,14 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 - Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 - Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 - Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+# Serializer
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156292996-b3db83c6-16c7-46cd-b0c6-b3ff87dc682b.png"> <br>
+</p>
+<p align="center">
+  <b> Serializer Operation </b> <br>
+</p>
 # Reference Circuit
 
   
@@ -47,15 +54,6 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
   <b> As Submitted in Literature Survey </b> <br>
 </p>
 
-# 
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156292996-b3db83c6-16c7-46cd-b0c6-b3ff87dc682b.png"> <br>
-</p>
-<p align="center">
-  <b> Serializer Operation </b> <br>
-</p>
-
 # Reference Circuit
 
 <p align="center">
@@ -65,40 +63,64 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
   <b> </b> <br>
 </p>
 
-# 
+# A 2-to-1 Mux
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155852709-d84adc05-ab04-4ac6-9d4c-db89ffa0c5ce.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156293283-cd78d99a-f466-4e8c-a791-6b10ebd25a64.png")
+> <br>
 </p>
 
-# 
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155852802-994e6f5c-641e-43e9-8466-453f7eec0bf1.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156293438-88739e61-45df-4888-a1af-a00c51fab1b5.png"> <br>
 </p>
 
-# 
+# A D-Flip Flop
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155852901-1e7bdec3-43c0-4c5e-8379-246b42faf8e3.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156293584-c8b7868b-21a9-4d6d-bad8-33840378b954.png"> <br>
 </p>
 
-# 
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155853101-47c7d0a2-7861-45f7-8b0a-7c555202501e.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156293660-f582f77f-6d21-43da-a2e9-e94a04edeace.png"> <br>
 </p>
 
-# 
+# A Positive Latch
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155853183-c798b780-860d-4160-914b-f3ddbd10b98d.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156293845-a7e11e28-2517-4185-bd66-197b4c9136d4.png"> <br>
 </p>
 
-# 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156293968-b9bee395-5ee9-45fe-b7ad-9fac507b4612.png"> <br>
+</p>
+
+# A Negative Latch
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156294116-df13dde8-b790-4e1b-88f9-1abb0aa6a997.png"> <br>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156294170-242b43ee-5176-49ff-b46b-61e907e611a5.png"> <br>
+</p>
+
+
+# An Inverter
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155853254-f41ef122-ad8b-4059-977f-be24326a076d.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156294302-9d189706-72e9-4302-a35a-da8a59ded70d.png"> <br>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156294373-b61434d4-6376-42b7-a76b-52d5ab2b90aa.png"> <br>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156294643-4b98e8eb-c078-4a48-a7c3-7afdcf70f1d8.png"> <br>
+</p>
+
+# A Frequency Divide by 2 circuit
+
+<p align="center">
+  <img src=""> <br>
 </p>
 
 # 
