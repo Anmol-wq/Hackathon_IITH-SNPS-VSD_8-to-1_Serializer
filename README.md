@@ -135,6 +135,8 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
   <img src="https://user-images.githubusercontent.com/73732594/156294643-4b98e8eb-c078-4a48-a7c3-7afdcf70f1d8.png"> <br>
 </p>
 
+This was the first symbol created to test out whether it is possible to just hardcode it at 1.8V without giving an external pin and it worked.
+
 # A Frequency Divide by 2 circuit
 
 <p align="center">
@@ -145,6 +147,8 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
   <img src="https://user-images.githubusercontent.com/73732594/156298569-974a956a-0c4f-4ffe-b09b-fa1f7fff2284.png"> <br>
 </p>
 
+A frequency divide by 2 circuit is created by giving a feedback around at Q negated into the input in a D-FF.
+
 # A 2-to-1 Serializer
 
 <p align="center">
@@ -154,6 +158,8 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156298940-92a003e8-9311-4d0f-8668-97cfb9d0d844.png"> <br>
 </p>
+
+The 2-to-1 Serializer utilized the schematics of sub-circuits rather than symbols just because it saved time. 
 
 # An 8-to-1 Serializer
 <p align="center">
@@ -169,8 +175,7 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
   <img src="https://user-images.githubusercontent.com/73732594/156299481-8639a2a3-7ddd-4a0f-b262-4a20b2deea03.png"> <br>
 </p>
 <p align="center">
-  <img src="file:///home/anmol/Pictures/Screenshot%20from%202022-03-01%2023-25-35.png![image](https://user-images.githubusercontent.com/73732594/156299644-32f4143a-13ac-4d32-909d-6a0b881893b8.png)
-"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156299644-32f4143a-13ac-4d32-909d-6a0b881893b8.png"> <br>
 </p>
 
 # Simulations
