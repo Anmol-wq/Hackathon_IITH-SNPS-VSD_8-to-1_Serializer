@@ -174,9 +174,11 @@ The 2-to-1 Serializer utilized the schematics of sub-circuits rather than symbol
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156299481-8639a2a3-7ddd-4a0f-b262-4a20b2deea03.png"> <br>
 </p>
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156299644-32f4143a-13ac-4d32-909d-6a0b881893b8.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156672849-ef2e848c-feb9-4eeb-9274-d9be40531900.png"> <br>
 </p>
+They are interconnected using the wiring labels rather than congesting it with unnecessary drawing of wiring here.
 
 # Simulations
 
@@ -194,11 +196,7 @@ The 2-to-1 Serializer utilized the schematics of sub-circuits rather than symbol
   <b> Transient Analysis </b> <br>
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156672849-ef2e848c-feb9-4eeb-9274-d9be40531900.png"> <br>
-</p>
 
-They are interconnected using the wiring labels rather than congesting it with unnecessary drawing of wiring here.
 
 <p align="center">
   <b> Reference successfully reproduced </b> <br>
