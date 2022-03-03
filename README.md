@@ -195,8 +195,11 @@ The 2-to-1 Serializer utilized the schematics of sub-circuits rather than symbol
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73732594/156374501-e69d14e3-3c09-4852-a765-5e26d1fd97d3.png"> <br>
+  <img src="https://user-images.githubusercontent.com/73732594/156672849-ef2e848c-feb9-4eeb-9274-d9be40531900.png"> <br>
 </p>
+
+They are interconnected using the wiring labels rather than congesting it with unnecessary drawing of wiring here.
+
 <p align="center">
   <b> Reference successfully reproduced </b> <br>
 </p>
