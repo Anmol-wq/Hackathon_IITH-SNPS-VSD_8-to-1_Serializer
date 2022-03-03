@@ -9,20 +9,20 @@ of  the  major  components  of  SerDes which is essentially  a  parallel  in  se
 - [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#serializer)
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
 - [A 2-to-1 Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#mux2-to-1)
-- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ff)
-- [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#platch)
-- [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#nlatch)
-- [An Inverter](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#inverter)
-- [A Frequency Divide by 2 circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#fby2)
-- [A 2-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser2)
-- [An 8-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser8)
-- [Simulations](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#simulations)
-- [Netlist](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#netlist)
-- [Challenges](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#challenges)
-- [Results](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#results)
-- [Author](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#author)
-- [Acknowledgements](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#acknowledgements)
-- [References](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#refs)
+- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f-f)
+- [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#p-latch)
+- [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#n-latch)
+- [An Inverter](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#inv-erter)
+- [A Frequency Divide by 2 circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f-by-2)
+- [A 2-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser-2)
+- [An 8-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser-8)
+- [Simulations](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#simula-tions)
+- [Netlist](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#net-list)
+- [Challenges](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#chall-enges)
+- [Results](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#res-ults)
+- [Author](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#auth-or)
+- [Acknowledgements](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#acknowledge-ments)
+- [References](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ref-s)
 
 
 # Abstract
@@ -53,6 +53,8 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
   <b> Serializer Operation </b> <br>
 </p>
 
+- This figure explains the working of a 2-to-1 serializer, 7 of which are used further ahead for creating the 8-to-1 serializer here.
+
 # Reference Circuit
  
 <p align="center">
@@ -61,12 +63,19 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
 <p align="center">
   <b> Serializer 8-to-1 </b> <br>
 </p>
+
+- The pin ordering here is utilized to obtain the serial data in format D1-D2-D3-...-D8. Also, the clock pins are being taken independently, which is made a note of.
+- The above two facets facilitated the final implementation. 
+
 <p align="center">
   <img align="center" src="https://user-images.githubusercontent.com/73732594/156292110-28235f4f-f37b-4c8c-98e0-3022a8440446.png"> <br>
 </p>
 <p align="center">
   <b> As Submitted in Literature Survey </b> <br>
 </p>
+
+- The overall structure here is replicated in the final implementation,but making use of pin-orderings and clock facilitation at each rank as per the figure before it.
+ 
 
 # A 2-to-1 Mux
 
@@ -79,6 +88,8 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
   <img src="https://user-images.githubusercontent.com/73732594/156293438-88739e61-45df-4888-a1af-a00c51fab1b5.png"> <br>
 </p>
 
+This is a transmission-gate based 2:1 mux as seen in "Digital Integrated Circuits" by Prof. Jan Rabaey.
+
 # A D-Flip Flop
 
 <p align="center">
@@ -88,6 +99,8 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156293660-f582f77f-6d21-43da-a2e9-e94a04edeace.png"> <br>
 </p>
+
+The D-flip flop implementation as a circuit contains a positive and a negative latch, along with inverters and muxes. And thus, consists of sub-circuits which are to be utilized for this design.
 
 # A Positive Latch
 
@@ -361,11 +374,11 @@ As we can see the (W/L)pMOS=(0.15u/0.04u), and (W/L)nMOS=(0.15u/0.04u) is used c
 # Challenges
 
 - Initially, instead of symbols, the whole circuit consisted of actual schematics instead of their generated symbols. This led to visibility issue as circuit is big. Appropriate symbols were created to facilitate better maneuverablity. 
-- The frequency divider circuit is yielding latency issues, so as per literature survey, it was concluded that a PLL may be assumed to provide the required clocks at the three ranks respectively.
+- The frequency divider circuit is yielding latency issues, so as per literature survey, it was concluded that a PLL may be assumed to provide the required clocks at the three ranks respectively, at the same time.
 
 # Results
 
-The circuit has been simulated successfully at clock frequency of 1 GHz, and the voltage signal is maintained at 1.8 V throughout, with data input lines transmitting data at 125 MHz.
+The circuit has been simulated successfully at clock frequency of 500 MHz, and the voltage signal is maintained at 1.8 V throughout, with data input lines transmitting data at 62.5 MHz.
 
 # Author
 
