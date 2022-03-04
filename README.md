@@ -1,14 +1,14 @@
 # A Tree Architecture Based 8-to-1 Serializer
 
-This repository presents the design and simulation of A  Serializer, one 
-of  the  major  components  of  SerDes which is essentially  a  parallel  in  serial out architecture. 
+This repository presents the design and simulation of a Serializer, one 
+of the major components of SerDes which is essentially a parallel in serial out architecture. 
 
 # Table of Contents
 - [Abstract](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#abstract)
 - [Tools Used](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#tools-used)
 - [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#serializer)
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
-- [A 2-to-1 Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#mux2-to-1)
+- [2-to-1_Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#2-to-1_mux)
 - [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f-f)
 - [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#p-latch)
 - [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#n-latch)
