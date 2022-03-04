@@ -9,7 +9,7 @@ of the major components of SerDes which is essentially a parallel in serial out 
 - [Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer/blob/main/README.md#serializer)
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
 - [2-to-1_Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#2-to-1_mux)
-- [A D-Flip Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f-f)
+- [D-Flip_Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#dff)
 - [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#p-latch)
 - [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#n-latch)
 - [An Inverter](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#inv-erter)
@@ -90,7 +90,7 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
 
 This is a transmission-gate based 2:1 mux as seen in "Digital Integrated Circuits" by Prof. Jan Rabaey.
 
-# A D-Flip Flop
+# D-Flip_Flop
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156293584-c8b7868b-21a9-4d6d-bad8-33840378b954.png"> <br>
