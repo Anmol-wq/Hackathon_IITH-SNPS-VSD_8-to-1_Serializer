@@ -77,7 +77,7 @@ Based on the 2-to-1 Serializer developed, one can use this architecture to imple
 - The overall structure here is replicated in the final implementation,but making use of pin-orderings and clock facilitation at each rank as per the figure before it.
  
 
-# A 2-to-1 Mux
+# 2-to-1_Mux
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156293283-cd78d99a-f466-4e8c-a791-6b10ebd25a64.png")
