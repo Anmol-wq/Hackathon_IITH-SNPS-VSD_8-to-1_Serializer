@@ -10,19 +10,19 @@ of the major components of SerDes which is essentially a parallel in serial out 
 - [Reference Circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#reference-circuit)
 - [2-to-1_Mux](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#2-to-1_mux)
 - [D-Flip_Flop](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#d-flip_flop)
-- [A Positive Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#p-latch)
-- [A Negative Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#n-latch)
-- [An Inverter](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#inv-erter)
-- [A Frequency Divide by 2 circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#f-by-2)
-- [A 2-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser-2)
-- [An 8-to-1 Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ser-8)
-- [Simulations](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#simula-tions)
-- [Netlist](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#net-list)
-- [Challenges](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#chall-enges)
-- [Results](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#res-ults)
-- [Author](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#auth-or)
-- [Acknowledgements](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#acknowledge-ments)
-- [References](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#ref-s)
+- [Positive_Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#positive_latch)
+- [Negative_Latch](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#negative_latch)
+- [Inverter](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#inverter)
+- [Frequency_Divide_by_2_circuit](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#frequency_divide_by_2_circuit)
+- [2-to-1_Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#2-to-1_serializer)
+- [8-to-1_Serializer](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#8-to-1_serializer)
+- [Simulations](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#simulations)
+- [Netlist](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#netlist)
+- [Challenges](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#challenges)
+- [Results](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#results)
+- [Author](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#author)
+- [Acknowledgements](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#acknowledgements)
+- [References](https://github.com/Anmol-wq/Hackathon_IITH-SNPS-VSD_8-to-1_Serializer#references)
 
 
 # Abstract
@@ -102,7 +102,7 @@ This is a transmission-gate based 2:1 mux as seen in "Digital Integrated Circuit
 
 The D-flip flop implementation as a circuit contains a positive and a negative latch, along with inverters and muxes. And thus, consists of sub-circuits which are to be utilized for this design.
 
-# A Positive Latch
+# Positive_Latch
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156293845-a7e11e28-2517-4185-bd66-197b4c9136d4.png"> <br>
@@ -112,7 +112,7 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
   <img src="https://user-images.githubusercontent.com/73732594/156293968-b9bee395-5ee9-45fe-b7ad-9fac507b4612.png"> <br>
 </p>
 
-# A Negative Latch
+# Negative_Latch
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156294116-df13dde8-b790-4e1b-88f9-1abb0aa6a997.png"> <br>
 </p>
@@ -121,7 +121,7 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
 </p>
 
 
-# An Inverter
+# Inverter
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156294302-9d189706-72e9-4302-a35a-da8a59ded70d.png"> <br>
@@ -137,7 +137,7 @@ The D-flip flop implementation as a circuit contains a positive and a negative l
 
 This was the first symbol created to test out whether it is possible to just hardcode it at 1.8V without giving an external pin and it worked.
 
-# A Frequency Divide by 2 circuit
+# Frequency_Divide_by_2_circuit
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156298051-4148376e-6856-41b2-ba0f-afca57ccf157.png"> <br>
@@ -149,7 +149,7 @@ This was the first symbol created to test out whether it is possible to just har
 
 A frequency divide by 2 circuit is created by giving a feedback around at Q negated into the input in a D-FF.
 
-# A 2-to-1 Serializer
+# 2-to-1_Serializer
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156298758-a266297f-76c3-437a-b7a9-b83b084d8009.png"> <br>
@@ -161,7 +161,7 @@ A frequency divide by 2 circuit is created by giving a feedback around at Q nega
 
 The 2-to-1 Serializer utilized the schematics of sub-circuits rather than symbols just because it saved time. 
 
-# An 8-to-1 Serializer
+# 8-to-1_Serializer
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73732594/156299239-4c238dd3-1605-47fd-bbb6-0f3fe8427793.png"> <br>
 </p>
