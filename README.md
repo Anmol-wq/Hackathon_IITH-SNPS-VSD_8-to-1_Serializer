@@ -196,9 +196,9 @@ There was an attempt at utilizing schematics all over for the overall circuit, b
 <p align="center">
   <b> Transient Analysis </b> <br>
 </p>
-
-
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73732594/156676978-618958ec-0999-436a-b043-f72cc807a8cf.png"> <br>
+</p>
 <p align="center">
   <b> Reference successfully reproduced </b> <br>
 </p>
