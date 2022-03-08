@@ -376,7 +376,7 @@ v27 0_1 gnd! dc=0 pulse ( 0 1.8 0 0.2n 0.2n 1n 2n )
 
 
 ```
-As we can see the (W/L)pMOS=(0.15u/0.04u), and (W/L)nMOS=(0.15u/0.04u) is used consistently throughout the design.
+As we can see the (W/L)pMOS=(0.15u/0.04u), and (W/L)nMOS=(0.1u/0.04u) is used consistently throughout the design.
 
 # Challenges
 
